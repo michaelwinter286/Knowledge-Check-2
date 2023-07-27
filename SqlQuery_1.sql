@@ -1,4 +1,4 @@
-﻿SELECT CustomerNames
+﻿SELECT CustomerName
 FROM Customers, Orders
 Where Orders.CustomerID = Customers.CustomerID
 And Orders.OrderID=10310
